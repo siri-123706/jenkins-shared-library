@@ -6,6 +6,7 @@ def call(Map configMap){
         }
         environment {
             COURSE = 'jenkins'
+            greeting = comfigMap.get()
 
         }
         options { // pipeline expries 30 mint
